@@ -1,0 +1,12 @@
+services:
+  os-fall-2024:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: root
+    volumes:
+      - .:/home/os-fall-2024
+    container_name: os-fall-2024
+    entrypoint: /bin/bash
+    stdin_open: true
+    tty: true

@@ -1,0 +1,5 @@
+dir2 4096
+mic_check 0
+LUMSU 0
+dir3 8192
+dir4 12288
